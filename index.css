@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.div, h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    color: #6d1717;
+}
+
+button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    margin: 2px;
+    background-color: #353538;
+    color: #f3f3f3;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: #89898b;
+    color: #f35353;
+    cursor: pointer;
+}
+
+button:active{
+    border-top: #0000003a 5px solid;
+    height: 25px;
+    margin-top: 10px;
+}
+
+p{
+    padding: 5px;
+    margin: 0px 10px;
+}
