@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css"/>
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css"/>
 </head>
 <body>
-    <h1>Contador</h1>
-    <div class="div">
-        <button id="sub">-</button>
-        <p id="texto1"></p>
-        <button id="add">+</button>
-    </div>
+    <form name="signup" id="signup">
+        <div>
+            <label>Nome</label>
+            <input type="text" minlength="2" maxlength="25" name="nameuser"/>
+        </div>
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" minlength="2" maxlength="35" name="lastnameuser"/>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" minlength="2" maxlength="25" name="emailuser"/>
+        </div>
+        <div>
+            <label>Telefone</label>
+            <input type="number" minlength="2" maxlength="15" name="teluser"/>
+        </div>
+        <div>
+            <label>Nascimento</label>
+            <input type="date" required name="birthuser"/> 
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
 </body>
-<script src="./index.js"></script>
+<script src="./signup.js"></script>
 </html>
